@@ -1,0 +1,16 @@
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+    .text { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 40px; }
+  </style>
+
+  <g transform="translate(10, 15) scale(1.2)">
+     <path d="M15 5 H40" stroke="#4ADE80" stroke-width="6" stroke-linecap="round"/>
+     <path d="M0 5 H8" stroke="#4ADE80" stroke-width="6" stroke-linecap="round"/>
+     <path d="M15 15 V25 C15 32 20 35 28 35 H40" stroke="#4ADE80" stroke-width="6" stroke-linecap="round" fill="none"/>
+     <path d="M40 20 H22" stroke="#4ADE80" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <text x="80" y="55" class="text" fill="#4ADE80">Mandvi</text>
+  <text x="245" y="55" class="text" fill="#1F2937">Cart</text>
+</svg>

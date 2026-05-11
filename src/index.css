@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* 🟢 Apply Font & Premium Background Globally */
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #f8fafc; /* Premium Slate-50 background (like Dashboard apps) */
+  color: #1e293b; /* Slate-800 text (Softer/More premium than black) */
+  -webkit-font-smoothing: antialiased; /* Makes font look crisp */
+}
+
+@theme {
+  --color-primary: #4fbf8b;
+  --color-primary-dull: #44ae7c;
+}
+
+/* 🟢 Professional Scrollbar (Chrome/Safari/Edge) */
+/* This replaces the default thick bar with a slim, modern one */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* Light gray thumb */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; /* Darker on hover */
+}
+
+/* Utility to hide scrollbar but keep functionality (for horizontal lists) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
